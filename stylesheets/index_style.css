@@ -1,0 +1,75 @@
+#div-1{
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(to bottom left, #f2610d, purple);
+    padding-top: 12%;
+}
+
+#div-2{
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(to bottom right, purple, teal);
+    padding-top: 16%;
+    text-align: center;
+}
+
+#div-3{
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(to bottom left, teal, #f2610d);
+    padding-top: 16%;
+}
+
+#div-1 #title{
+    margin-left: 13%;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#div-1 #lower_text{
+    margin-left: 28%;
+    font-size: 40px;
+}
+
+#div-2 #title{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#div-3 #startLooking{
+    margin-left: 15%;
+    font-size: 50px;
+}
+
+#div-3 a {
+    text-decoration: none;
+    color: #f2610d;
+}
+
+#div-3 a:hover {
+    cursor: pointer;
+}
+
+#div-3 .enlist{
+    font-size: xxx-large;
+    margin-left: 18%;
+    border: 5px solid white;
+    padding: 20px 20px 20px 20px ;
+    transition-property: color, border;
+    transition-duration: 0.4s;
+    color: white;
+}
+
+#div-3 .enlist:hover{
+    border-color: #f2610d;
+}
+
+@media screen and (max-width: 1080px){
+    .enlist{
+        margin-left: 0 !important;
+        font-size: medium !important;
+    }
+    #lower_text{
+        font-size: x-large !important;
+    }
+}

@@ -1,0 +1,135 @@
+/*
+form style
+*/
+
+.formular{
+    text-align: center;
+}
+
+.formular input {
+    margin-bottom: 25px;
+}
+
+button#btn-login {
+    color: #ffffff !important;
+    background: #1a181b;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 25px;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+button#btn-login:hover {
+    cursor: pointer;
+    background: #f2610d;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.formular a {
+    text-decoration: none;
+    color: #f2610d;
+    font-size: 20px;
+}
+
+.formular form {
+    display: block;
+    margin: auto;
+    max-width: 60%;
+    margin-bottom: 100px;
+}
+
+.formular form input {
+    padding: 4px 7px;
+    font-family: "Gotham", sans-serif;
+    color: #ffffff;
+    background: #000000;
+    font-size: 25px;
+    transition: border 0.4s;
+    border: 5px solid #000000;
+    caret-color: #ffffff;
+}
+
+.formular form select {
+    padding: 4px 7px;
+    font-family: "Gotham", sans-serif;
+    color: #ffffff;
+    background: #000000;
+    font-size: 25px;
+    transition: border 0.4s;
+    border: 5px solid #000000;
+    caret-color: #ffffff;
+    width: 347px
+}
+
+.formular form input:focus {
+    font-family: "Gotham", sans-serif;
+    border: 5px solid #ffffff;
+    font-size: 25px;
+    transition: border 0.4s;
+    outline: none;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.btn_user{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: right;
+    color: black;
+    background-color: #f2610d;
+    padding: 15px 20px;
+    font-weight: bold;
+    transition-property: color, background;
+    transition-duration: 0.4s;
+    margin-left: 80px;
+    margin-right: 20px;
+    border: 2px solid #f2610d;
+    vertical-align: middle;
+    outline: 0;
+}
+
+.btn_user:hover{
+    border: 2px solid #f2610d;
+    background-color: black;
+    color: white;
+    vertical-align: middle;
+}
+
+.btn_comp{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: right;
+    color: black;
+    background-color: #f2610d;
+    padding: 15px 20px;
+    font-weight: bold;
+    transition-property: color, background;
+    transition-duration: 0.4s;
+    margin-left: 20px;
+    border: 2px solid #f2610d;
+    vertical-align: middle;
+    outline: 0;
+}
+
+.btn_comp:hover{
+    border: 2px solid #f2610d;
+    background-color: black;
+    color: white;
+    vertical-align: middle;
+}
+
+#buttonSplitter{
+    color: #f2610d;
+    font-size: 150px;
+    vertical-align: middle;
+}

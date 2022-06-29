@@ -1,0 +1,31 @@
+#div-supp{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 700px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h2{
+    color: #f2610d;
+    background-color: black;
+}
+
+h2:hover{
+    cursor: pointer;
+}
+
+#contact{
+    color: #f2610d;
+}
+
+.p{
+    display: none;
+}
+
+@media screen and (max-width: 1080px){
+    .footer{
+        position: absolute;
+    }
+}
